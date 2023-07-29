@@ -1,0 +1,80 @@
+// .CircularProgressBar {
+//     width: 160px;
+//     height: 160px;
+//     // background-color: orangered;
+//     position: relative;
+
+//     .outer {
+//         height: 160px;
+//         width: 160px;
+//         padding: 20px;
+//         box-shadow: 11px 11px 32px 6px rgba(0, 0, 0, 0.34);
+//         -webkit-box-shadow: 11px 11px 32px 6px rgba(0, 0, 0, 0.34);
+//         -moz-box-shadow: 11px 11px 32px 6px rgba(0, 0, 0, 0.34);
+
+//         border-radius: 50%;
+
+//         .inner {
+//             height: 120px;
+//             width: 120px;
+//             padding: 20px;
+//             display: flex;
+//             align-items: center;
+//             justify-content: center;
+//             box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+//                 inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+//                 -0.5px -0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.5);
+
+//             border-radius: 50%;
+
+
+//             #number{
+//                font-weight: 600;
+//                 color: #555;
+//             }
+//         }
+//     }
+// }
+
+
+
+
+.CircularProgressBar {
+    width: 160px;
+    height: 160px;
+    position: relative;
+  
+    .outer {
+      height: 160px;
+      width: 160px;
+      padding: 20px;
+      border-radius: 50%;
+      box-shadow: 11px 11px 32px 6px rgba(0, 0, 0, 0.34);
+      -webkit-box-shadow: 11px 11px 32px 6px rgba(0, 0, 0, 0.34);
+      -moz-box-shadow: 11px 11px 32px 6px rgba(0, 0, 0, 0.34);
+  
+      svg {
+        height: 100%;
+        width: 100%;
+      }
+    }
+  
+    .inner {
+      height: 120px;
+      width: 120px;
+      padding: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+        inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+        -0.5px -0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.5);
+  
+      #number {
+        font-weight: 600;
+        color: #555;
+      }
+    }
+  }
+  

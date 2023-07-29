@@ -1,0 +1,101 @@
+.single{
+    display: flex;
+    width: 100%;
+    
+    .singleContainer{
+        flex: 6;
+        // padding-left: 50px;
+
+        .top{
+            padding: 20px;
+            display: flex;
+            gap: 20px;
+            // margin-left: 150px;
+            // padding-left: 100px;
+
+
+            .left{
+                flex: 1;
+                box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.47);
+                -webkit-box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.47);
+                -moz-box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.47);
+                position: relative;
+                display: grid;
+               
+                
+
+
+                .editButton{
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    padding: 5px;
+                    font-size: 12px;
+                    color: #7451f8 ;
+                    background-color: #7551f86c;
+                    cursor: pointer;
+                    border-radius: 0px 0px 0px 5px;
+
+                }
+
+                .item{
+                    display: flex;
+                    gap: 20px;
+                    
+                    .itemImg{
+                        width: 100px;
+                        height: 100px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                    }
+                    .details{
+                        
+                        .itemTitle{
+                            margin-bottom: 10px;
+                            color: #555;
+                        }
+                        .detailItem{
+                            margin-bottom: 10px;
+                            font-size: 14px;
+
+                            .itemkey{
+                                font-weight: bold;
+                                color: red;
+                                margin-right: 5px;
+                            }
+                            .itemValue{
+                                font-weight: 300;
+                                
+                            }
+                        }
+                    }
+                }
+            }
+            .right{
+                flex: 2;
+                flex: 1;
+                box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.47);
+                -webkit-box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.47);
+                -moz-box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.47);
+                height: 300px;
+                padding-top: 20px;
+                
+            }
+        }
+
+        .bottom{
+            padding: 20px;
+            // display: flex;
+            gap: 20px;
+            // margin-left: 150px;
+            // padding-left: 100px;
+            
+        }
+    }
+    .title{
+        font-size: 16px;
+        color: rgb(180, 172, 172);
+        margin-bottom: 20px;
+
+    }
+}
